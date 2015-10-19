@@ -15,4 +15,4 @@ The script contains various settings for personalization and prefences inside th
 | ``web`` | The web attached to the spider is designed using CSS. This property allows you to change the design of the spider web by specifying a CSS Sting. |
 
 ## Demo
-![Demo](http://i21.servimg.com/u/f21/18/21/41/30/spider10.gif)
+![Demo](http://i21.servimg.com/u/f21/18/21/41/30/scroll10.gif)
