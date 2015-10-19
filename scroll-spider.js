@@ -5,7 +5,7 @@
       side : 'right',
       offset : '0px',
       
-      tooltip : 'Back to top',
+      tooltip : 'Squash..?',
       image : 'http://i21.servimg.com/u/f21/18/21/41/30/spider11.png',
       web : 'background-color:#000;width:2px;height:999em;position:absolute;right:42%;bottom:95%;'
     },
