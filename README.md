@@ -1,6 +1,6 @@
 # Scroll Spider
 
-This script is a silly little decoration for Halloween. It appends a spider to the document which will scroll down as you scroll the document... and scare the person who is scrolling. The spider also serves as a means to go back to the top of the page.. well actually, it punishes you for trying to squash it with your cursor.
+This script is a silly little decoration for Halloween. It appends a spider to the document which will scroll down as you scroll the document, and is bound to scare those with a spider phobia. The spider also serves as a means to go back to the top of the page.. well actually, it just punishes you for trying to squash it with your cursor.
 
 **Jump to :**
 - [Configuration](#configuration)
