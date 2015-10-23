@@ -30,7 +30,7 @@
           // interval for scrolling the document ( and spider ) back to the top
           window : window.setInterval(function() {
             if (_scrollSpider.scroll.top > 0) {
-              _scrollSpider.scroll.body.scrollTop = _scrollSpider.scroll.top = _scrollSpider.scroll.top - _scrollSpider.scroll.by;
+              _scrollSpider.scroll.body.scrollTop = _scrollSpider.scroll.top -= _scrollSpider.scroll.by;
               _scrollSpider.move();
             } else {
               window.clearInterval(_scrollSpider.scroll.window); 
