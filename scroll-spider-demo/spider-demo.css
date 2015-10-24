@@ -1,0 +1,46 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  color:#FFF;
+  background:#444;
+  font-family:Arial, Verdana, Sans-serif;
+  font-size:12px;
+}
+
+h1 {
+  color:#F90;
+  font-family:"Trebuchet MS", Arial, Verdana, Sans-serif;
+  text-align:center;
+  margin-bottom:25px;
+}
+
+p {
+  font-size:16px;
+  width:80%;
+  margin:0 auto;
+}
+
+a:link { color:#F90; }
+a:visited { color:#F66; }
+a:hover {
+  color:#F60;
+  text-decoration:none;
+}
+a:active { color:#FC3; }
+
+#overflow {
+  height:999em;
+  visibility:hidden;
+}
+
+#wrapper {
+  width:70%;
+  height:500px;
+  background:#333;
+  border:1px solid #222;
+  margin:10px auto;
+  padding:3px;
+}
