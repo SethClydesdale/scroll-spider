@@ -29,4 +29,7 @@ The table below indicates the lowest browser version ( and onward ) this decorat
 *Estimates are for Desktop browsers.*
 
 ## Demo
+
+You can view a demo of this decoration in action on [MDN](https://developer.mozilla.org/en-US/demos/detail/scroll-spider) or via the image below.
+
 ![Demo](http://i21.servimg.com/u/f21/18/21/41/30/scroll10.gif)
