@@ -49,7 +49,7 @@
       
       if (img && img.complete) {
         _scrollSpider.spider.style.marginTop = '-' + img.height + 'px';
-        _scrollSpider.spider.style.display = ''; // show spider after offset has been applied
+        _scrollSpider.spider.style.display = ''; // show spider after offset has been applied (should be properly hidden now)
       } else {
         window.addEventListener('load', _scrollSpider.applyOffset);
       }
