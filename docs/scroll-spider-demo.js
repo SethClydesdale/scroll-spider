@@ -49,6 +49,7 @@
       
       if (img && img.complete) {
         _scrollSpider.spider.style.marginTop = '-' + img.height + 'px';
+        _scrollSpider.spider.style.display = ''; // show spider after offset has been applied (should be properly hidden now)
       } else {
         window.addEventListener('load', _scrollSpider.applyOffset);
       }
@@ -63,6 +64,7 @@
       spider.style.position = 'fixed';
       spider.style[/left|right/i.test(_scrollSpider.config.side) ? _scrollSpider.config.side : 'right'] = _scrollSpider.config.offset;
       spider.style.top = '0%';
+      spider.style.display = 'none'; // keeps spider hidden until image has been loaded (otherwise it'll be briefly visible until the offset is applied)
       
       document.body.appendChild(spider);
       
