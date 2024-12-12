@@ -38,9 +38,20 @@ a:active { color:#FC3; }
 
 #wrapper {
   width:70%;
-  height:500px;
+  min-height:500px;
   background:#333;
   border:1px solid #222;
   margin:10px auto;
   padding:3px;
+}
+
+/* ADS */
+.ad-container {
+  text-align:center;
+  margin-top:250px;
+  margin-bottom:30px;
+}
+
+@media (max-width:470px) {
+  #wrapper { width:100%; }
 }
